@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_BCA_DALINAR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BCA_DALINAR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DALINAR_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_DALINAR_DIPLO_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerHistoricMoment"/>
+			<m_ObjectName text="ShardbearerHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WarcampAtlas256"/>
+			<m_ObjectName text="WarcampAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WarcampAtlas38"/>
+			<m_ObjectName text="WarcampAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WarcampAtlas50"/>
+			<m_ObjectName text="WarcampAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WarcampAtlas80"/>
+			<m_ObjectName text="WarcampAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WarcampHistoricMoment"/>
+			<m_ObjectName text="WarcampHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas128"/>
+			<m_ObjectName text="AlethkarAtlas128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas200"/>
+			<m_ObjectName text="AlethkarAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas22"/>
+			<m_ObjectName text="AlethkarAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas256"/>
+			<m_ObjectName text="AlethkarAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas30"/>
+			<m_ObjectName text="AlethkarAtlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas36"/>
+			<m_ObjectName text="AlethkarAtlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas44"/>
+			<m_ObjectName text="AlethkarAtlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas48"/>
+			<m_ObjectName text="AlethkarAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas50"/>
+			<m_ObjectName text="AlethkarAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas64"/>
+			<m_ObjectName text="AlethkarAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="AlethkarAtlas80"/>
+			<m_ObjectName text="AlethkarAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BCA_DALINAR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BCA_DALINAR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas200"/>
+			<m_ObjectName text="ShardbearerAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas22"/>
+			<m_ObjectName text="ShardbearerAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas256"/>
+			<m_ObjectName text="ShardbearerAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas32"/>
+			<m_ObjectName text="ShardbearerAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas38"/>
+			<m_ObjectName text="ShardbearerAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas50"/>
+			<m_ObjectName text="ShardbearerAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas70"/>
+			<m_ObjectName text="ShardbearerAtlas70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas80"/>
+			<m_ObjectName text="ShardbearerAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ShardbearerAtlas95"/>
+			<m_ObjectName text="ShardbearerAtlas95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon256"/>
+			<m_ObjectName text="DalinarIcon256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon32"/>
+			<m_ObjectName text="DalinarIcon32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon45"/>
+			<m_ObjectName text="DalinarIcon45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon48"/>
+			<m_ObjectName text="DalinarIcon48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon50"/>
+			<m_ObjectName text="DalinarIcon50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon55"/>
+			<m_ObjectName text="DalinarIcon55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon64"/>
+			<m_ObjectName text="DalinarIcon64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DalinarIcon80"/>
+			<m_ObjectName text="DalinarIcon80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon256"/>
+			<m_ObjectName text="JasnahIcon256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon32"/>
+			<m_ObjectName text="JasnahIcon32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon48"/>
+			<m_ObjectName text="JasnahIcon48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon50"/>
+			<m_ObjectName text="JasnahIcon50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon55"/>
+			<m_ObjectName text="JasnahIcon55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon64"/>
+			<m_ObjectName text="JasnahIcon64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon80"/>
+			<m_ObjectName text="JasnahIcon80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BCA_JASNAH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BCA_JASNAH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JASNAH_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_JASNAH_DIPLO_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BCA_JASNAH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BCA_JASNAH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BCA_JASNAH_BACKGROUND1"/>
+			<m_ObjectName text="LEADER_BCA_JASNAH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BCA_JASNAH_NEUTRAL1"/>
+			<m_ObjectName text="LEADER_BCA_JASNAH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JASNAH_DIPLO_BG1"/>
+			<m_ObjectName text="LEADER_JASNAH_DIPLO_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JasnahIcon45"/>
+			<m_ObjectName text="JasnahIcon45"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

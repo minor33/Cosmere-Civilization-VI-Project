@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="BrigantineHistoricMoment"/>
+			<m_ObjectName text="BrigantineHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas256"/>
+			<m_ObjectName text="FenAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas32"/>
+			<m_ObjectName text="FenAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas45"/>
+			<m_ObjectName text="FenAtlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas48"/>
+			<m_ObjectName text="FenAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas50"/>
+			<m_ObjectName text="FenAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas55"/>
+			<m_ObjectName text="FenAtlas55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas64"/>
+			<m_ObjectName text="FenAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FenAtlas80"/>
+			<m_ObjectName text="FenAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BCA_FEN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BCA_FEN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BCA_FEN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BCA_FEN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_FEN_DIPLO_BG"/>
+			<m_ObjectName text="LEADER_FEN_DIPLO_BG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas128"/>
+			<m_ObjectName text="ThaylenahAtlas128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas200"/>
+			<m_ObjectName text="ThaylenahAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas22"/>
+			<m_ObjectName text="ThaylenahAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas256"/>
+			<m_ObjectName text="ThaylenahAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas30"/>
+			<m_ObjectName text="ThaylenahAtlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas36"/>
+			<m_ObjectName text="ThaylenahAtlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas44"/>
+			<m_ObjectName text="ThaylenahAtlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas48"/>
+			<m_ObjectName text="ThaylenahAtlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas50"/>
+			<m_ObjectName text="ThaylenahAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas64"/>
+			<m_ObjectName text="ThaylenahAtlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ThaylenahAtlas80"/>
+			<m_ObjectName text="ThaylenahAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WetDockAtlas128"/>
+			<m_ObjectName text="WetDockAtlas128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WetDockAtlas256"/>
+			<m_ObjectName text="WetDockAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WetDockAtlas32"/>
+			<m_ObjectName text="WetDockAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WetDockAtlas38"/>
+			<m_ObjectName text="WetDockAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WetDockAtlas50"/>
+			<m_ObjectName text="WetDockAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WetDockAtlas80"/>
+			<m_ObjectName text="WetDockAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WetDockHistoricMoment"/>
+			<m_ObjectName text="WetDockHistoricMoment"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas200"/>
+			<m_ObjectName text="BrigantineAtlas200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas22"/>
+			<m_ObjectName text="BrigantineAtlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas256"/>
+			<m_ObjectName text="BrigantineAtlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas32"/>
+			<m_ObjectName text="BrigantineAtlas32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas38"/>
+			<m_ObjectName text="BrigantineAtlas38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas50"/>
+			<m_ObjectName text="BrigantineAtlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas70"/>
+			<m_ObjectName text="BrigantineAtlas70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas80"/>
+			<m_ObjectName text="BrigantineAtlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BrigantineAtlas95"/>
+			<m_ObjectName text="BrigantineAtlas95"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Thaylenah (The Cosmere)</Name>
+    <Guid>d1fc94d1-33f1-4c2b-a6bf-4fd194ff5818</Guid>
+    <ProjectGuid>f1d6e542-03ea-4e6d-bab2-6e3bc6353dda</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Thaylenah from the Cosmere Universe as a new Civilization</Teaser>
+    <Description>Introduces Thaylenah, a naval civilization from Brandon Sanderson's Cosmere, to Civilization VI with F'en Rnamdi as a leader.</Description>
+    <Authors>Baconace</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>Keniisus_Civ_Template</AssemblyName>
+    <RootNamespace>Keniisus_Civ_Template</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Leader/Leader_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File></UpdateText><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="UpdateIcons"><File>Core/NewIcons.sql</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Civilization_Config.sql</File><File>Leader/Leader_Core.sql</File><File>Core/Civilization_UA.sql</File><File>Core/Civilization_UI.sql</File><File>Core/Civilization_UU.sql</File><File>Leader/Leader_UA.sql</File><File>Leader/Leader_Agenda.sql</File><File>Leader/Leader_Screens.sql</File><File>Core/Civilization_HistoricMoments.sql</File></UpdateDatabase><UpdateColors id="NewAction"><File>Core/Civilization_Colors.sql</File><File>Leader/Leader_Colors.sql</File></UpdateColors><UpdateText id="NewAction"><File>Core/Civilization_Localisation.sql</File><File>Leader/Leader_Localisation.sql</File></UpdateText><UpdateIcons id="NewIcons"><File>Core/NewIcons.sql</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Expansion1"><GameModeInUse><GameCoreInUse>Expansion1</GameCoreInUse></GameModeInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Core" />
+    <Folder Include="Leader" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtDef Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <ArtDef Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </ArtDef>
+    <Content Include="Core\Civilization_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_HistoricMoments.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Civilization_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NewIcons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Agenda.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Core.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_Screens.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Leader_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CosmereThaylenah.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BrigantineAtlas95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <XLP Include="Textures\BrigantineHistoricMoment.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\BrigantineHistoricMoment.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FALLBACK_NEUTRAL_FEN.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FALLBACK_NEUTRAL_FEN.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas256.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas256.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas32.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas32.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas45.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas45.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas48.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas48.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas50.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas50.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas55.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas55.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas64.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas64.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas80.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\FenAtlas80.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BCA_FEN_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BCA_FEN_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BCA_FEN_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_BCA_FEN_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_FEN_DIPLO_BG.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\LEADER_FEN_DIPLO_BG.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas128.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas128.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas200.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas200.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas22.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas22.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas256.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas256.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas30.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas30.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas36.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas36.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas44.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas44.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas48.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas48.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas50.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas50.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas64.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas64.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas80.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\ThaylenahAtlas80.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas128.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas128.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas256.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas256.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas32.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas32.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas38.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas38.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas50.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas50.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas80.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockAtlas80.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockHistoricMoment.dds">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="Textures\WetDockHistoricMoment.tex">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+    <XLP Include="XLPs\ThaylenahAtlas.xlp">
+      <SubType>Content</SubType>
+    </XLP>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
